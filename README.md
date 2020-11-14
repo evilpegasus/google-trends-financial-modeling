@@ -14,6 +14,8 @@ Data is downloaded through the Pytrends module using the Google Trends API.
 
 https://pypi.org/project/pytrends/
 
-Financial data is from yfinance
+Financial data is from yfinance and WRDS
 
 https://pypi.org/project/yfinance/
+
+https://wrds-www.wharton.upenn.edu/
