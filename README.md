@@ -19,3 +19,6 @@ Financial data is from yfinance and WRDS
 https://pypi.org/project/yfinance/
 
 https://wrds-www.wharton.upenn.edu/
+
+## Notes and TODO
+https://jackdry.com/predicting-realized-volatility-using-google-trends
