@@ -22,3 +22,7 @@ https://wrds-www.wharton.upenn.edu/
 
 ## Notes and TODO
 https://jackdry.com/predicting-realized-volatility-using-google-trends
+
+WRDS python module
+
+https://wrds-www.wharton.upenn.edu/pages/support/programming-wrds/programming-python/jupyterhub-wrds/
