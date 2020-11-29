@@ -26,3 +26,7 @@ https://jackdry.com/predicting-realized-volatility-using-google-trends
 WRDS python module
 
 https://wrds-www.wharton.upenn.edu/pages/support/programming-wrds/programming-python/jupyterhub-wrds/
+
+How to do daily search trends
+
+https://medium.com/@bewerunge.franz/google-trends-how-to-acquire-daily-data-for-broad-time-frames-b6c6dfe200e6
