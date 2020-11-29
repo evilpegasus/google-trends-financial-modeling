@@ -7,6 +7,9 @@ Fall 2020
 
 Ming Fong and Alex Yang
 
+## The Paper
+https://www.researchgate.net/publication/326503702_Algorithmic_Trading_Systems_Based_on_Google_Trends
+
 ## Alternative Data
 We will use Google Trends search volume data to make predictions about the volitility of a stock.
 
