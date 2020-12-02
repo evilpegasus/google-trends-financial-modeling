@@ -1,5 +1,11 @@
 from pytrends import dailydata
 
+"""
+Makes requests for each word in words.txt
+Run this on a server overnight
+Takes about 9 hours before failing
+"""
+
 with open("words.txt") as f:
     words = f.readlines()
 words = [x.strip() for x in words]
