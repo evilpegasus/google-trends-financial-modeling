@@ -13,4 +13,4 @@ Our downloaded Google Trends DataFrame looks like this.
 ```
 word_trends["debt"].head()
 ```
-We are primarily interested in the last column which gives the scaled search volume. The other columns 
+We are primarily interested in the last column which gives the scaled search volume. The other columns are used to calculate the scaling.
