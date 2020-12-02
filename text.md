@@ -1,5 +1,9 @@
+We will implement [this paper](https://www.nature.com/articles/srep01684.pdf) by Preis, Moat, and Stanley and make modifications to their algorithm logic that will be detailed later.
+
 ## Data Collection and Processing
 We sourced our alternative data from [Google Trends](https://trends.google.com/trends/?geo=US). Downloading data over a long time frame from the Google Trends website gives weekly datapoints with dates that are hard to control. To work around this, we used the third-party [pytrends](https://pypi.org/project/pytrends/) API for Python. This API allows us to request daily data for any time interval.
+
+For our financial data we used yfinance because of its ease of use. Because our trading intervals will be on the scale of days-weeks,  
 
 ### Problems
 Because the API is third-party, you will get 429 (too many requests) errors after about 3 years of daily data. We created a script that downloads and saves Google search trend data and ran it in a Kaggle Docker Container to save time.
