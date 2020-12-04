@@ -1,11 +1,8 @@
 # Google Trends Financial Modeling
-Modeling index movements with Google Trends alternative data
-
+## Ming Fong and Alexander Yang
 STAT 198 Quantitative Finance
 
 Fall 2020
-
-Ming Fong and Alexander Yang
 
 ## Introduction
 
