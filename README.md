@@ -6,7 +6,7 @@ Fall 2020
 
 ## Introduction
 
-We implement an event-based trading strategy for an index (NASDAQ) based on moving averages of changes in Google Trend data for certain selected keywords.
+We implement an event-driven trading strategy for an index (NASDAQ) based on moving averages of changes in Google Trend data for certain selected keywords.
 
 The notebook can be found in `Presentation Notebook.ipynb`
 
