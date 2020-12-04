@@ -1,35 +1,28 @@
-# financial-modeling
-Modeling stock volatility with alternative data and pairs trading
+# Google Trends Financial Modeling
+Modeling index movements with Google Trends alternative data
 
 STAT 198 Quantitative Finance
 
 Fall 2020
 
-Ming Fong and Alex Yang
+Ming Fong and Alexander Yang
 
-## The Paper
-https://www.researchgate.net/publication/326503702_Algorithmic_Trading_Systems_Based_on_Google_Trends
+## Introduction
+
+We implement an event-based trading strategy for an index (NASDAQ) based on moving averages of changes in Google Trend data for certain selected keywords.
+
+The notebook can be found in `Presentation Notebook.ipynb`
 
 ## Alternative Data
-We will use Google Trends search volume data to make predictions about the volitility of a stock.
+We will use Google Trends search volume data to make predictions about the movements of an index.
 
-Data is downloaded through the Pytrends module using the Google Trends API.
+Data is downloaded through the [Pytrends](https://pypi.org/project/pytrends/) module using the Google Trends API.
 
-https://pypi.org/project/pytrends/
+Financial data is from [yfinance](https://pypi.org/project/yfinance/)
 
-Financial data is from yfinance and WRDS
+Backtesting is done using the [Backtesting.py](https://kernc.github.io/backtesting.py/) package
 
-https://pypi.org/project/yfinance/
+## Resources
+https://www.researchgate.net/publication/326503702_Algorithmic_Trading_Systems_Based_on_Google_Trends
 
-https://wrds-www.wharton.upenn.edu/
-
-## Notes and TODO
 https://jackdry.com/predicting-realized-volatility-using-google-trends
-
-WRDS python module
-
-https://wrds-www.wharton.upenn.edu/pages/support/programming-wrds/programming-python/jupyterhub-wrds/
-
-How to do daily search trends
-
-https://medium.com/@bewerunge.franz/google-trends-how-to-acquire-daily-data-for-broad-time-frames-b6c6dfe200e6
