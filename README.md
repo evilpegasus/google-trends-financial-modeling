@@ -6,7 +6,7 @@ Fall 2020
 
 ## Introduction
 
-We implement an event-driven trading strategy for an index (NASDAQ) based on moving averages of changes in Google Trend data for certain selected keywords.
+We implement a trading strategy for an index (NASDAQ) based on moving averages of changes in Google Trend data for certain selected keywords.
 
 The notebook can be found in `Presentation Notebook.ipynb`
 
@@ -20,6 +20,6 @@ Financial data is from [yfinance](https://pypi.org/project/yfinance/)
 Backtesting is done using the [Backtesting.py](https://kernc.github.io/backtesting.py/) package
 
 ## Resources
-https://www.researchgate.net/publication/326503702_Algorithmic_Trading_Systems_Based_on_Google_Trends
+Paper to implement: https://www.researchgate.net/publication/326503702_Algorithmic_Trading_Systems_Based_on_Google_Trends
 
 https://jackdry.com/predicting-realized-volatility-using-google-trends
